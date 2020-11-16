@@ -1,0 +1,88 @@
+.reservation {
+   padding-top: 60px;
+   text-align: center;
+   margin-bottom: 150px;
+
+   &__title {
+      margin-bottom: 15px;
+   }
+
+   &__subtitle {
+      font-size: 50px;
+      letter-spacing: 0.06em;
+      margin-bottom: 85px;
+   }
+
+   &__form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      input {
+         flex: 300px 1 1;
+         font-size: 20px;
+         border: 1px solid #bebebe;
+         border-radius: 5px;
+         height: 65px;
+         padding: 0 20px;
+         margin: 15px;
+
+         &::placeholder {
+            font-family: 'Bebas Neue', cursive;
+            text-transform: uppercase;
+            color: #3d3d3d;
+         }
+
+         &[type="submit"] {
+            font-family: 'Alfa Slab One', cursive;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #bf2222;
+            border: none;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+               background-color: #ffc045;
+               color: #3d2514;
+            }
+         }
+
+         &:focus {
+            border-color: #3d2514;
+         }
+
+      }
+   }
+
+   &__image-1 {
+      position: absolute;
+      top: -60px;
+      right: 950px;
+      height: 200px;
+      filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.4));
+   }
+
+   &__image-2 {
+      position: absolute;
+      top: 185px;
+      right: 905px;
+      height: 270px;
+      filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.4));
+   }
+
+   &__image-3 {
+      position: absolute;
+      top: 195px;
+      left: 880px;
+      height: 400px;
+      filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.4));
+   }
+}
+
+.inner {
+   max-width: 845px;
+   margin: 0 auto;
+   padding: 0 15px;
+   position: relative;
+}

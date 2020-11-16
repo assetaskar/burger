@@ -1,0 +1,81 @@
+.footer {
+   min-height: 525px;
+   margin: 0 4.2% min(4.2vw, 60px);
+   background: url(../img/bg/footer.jpg), rgba(0, 0, 0, 0.75);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: multiply;
+   color: #fff;
+   padding: 85px 30px 30px;
+   position: relative;
+
+   &__logo {
+      display: inline-block;
+      height: 90px;
+      padding-top: 25px;
+      padding-left: 125px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 60px;
+      background-image: url(../img/icon/footer-logo.svg);
+      background-repeat: no-repeat;
+      margin-bottom: 45px;
+   }
+
+   &__text {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 25px;
+      max-width: 512px;
+      margin-bottom: 60px;
+   }
+
+   &__contact {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      position: absolute;
+      top: 240px;
+      right: 125px;
+      margin-bottom: 20px;
+   }
+
+   &__address {
+      line-height: 35px;
+      padding-left: 65px;
+      background-image: url(../img/icon/location.svg);
+      background-repeat: no-repeat;
+      margin-bottom: 15px;
+   }
+
+   &__email {
+      line-height: 23px;
+      padding-left: 65px;
+      background-image: url(../img/icon/email.svg);
+      background-repeat: no-repeat;
+   }
+
+   &__copyright {
+      font-family: 'Bebas Neue', cursive;
+      line-height: 30px;
+      text-transform: uppercase;
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+   }
+
+   &__social {
+      height: 30px;
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+   }
+
+   &__link {
+
+      &:not(:last-child) {
+         margin-right: 10px;
+      }
+
+      img {
+         height: 100%;
+      }
+   }
+}
